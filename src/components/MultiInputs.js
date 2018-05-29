@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { Row, Input, Icon, Button, Col } from "react-materialize";
-import "./index.css";
+import { Row, Input, Icon } from "react-materialize";
 
 class MultiInputs extends Component {
   constructor() {
@@ -65,23 +64,4 @@ class MultiInputs extends Component {
   }
 }
 
-class App extends Component {
-  render() {
-    return (
-      <div className="form">
-        <Row>
-          <Col s={12} l={6}><h5 className="title">Multi Inputs</h5></Col>
-          <Col s={12} l={6}><MultiInputs /></Col>
-        </Row>
-        <Row className="options">
-          <div className="right-align">
-            <a class="btn-flat">CANCEL</a>
-            <a class="btn-flat save">SAVE</a>
-          </div>
-        </Row>
-      </div>
-    );
-  }
-}
-
-export default App;
+export default MultiInputs;
