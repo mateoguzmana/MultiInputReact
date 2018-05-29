@@ -1,10 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 
-class Title extends Component {
-  render() {
-    return <h5 className="title">{this.props.text}</h5>;
-  }
+const Title = (props) => {
+    const { text } = props;
+    return <h5 className="title">{text}</h5>;
 }
 
 Title.propTypes = {
