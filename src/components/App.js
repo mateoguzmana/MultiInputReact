@@ -16,7 +16,7 @@ class App extends Component {
             <MultiInputs />
           </Col>
         </Row>
-        <Footer rightButton={"SAVE"} leftButton={"SAVE"}/>
+        <Footer rightButton={"SAVE"} leftButton={"CANCEL"}/>
       </div>
     );
   }
